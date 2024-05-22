@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family:"Poppins", sans-serif;
+  color: #fff;
+}
+
+#anim-badge{
+  animation: badge 3s infinite;
+}
+
+@keyframes badge {
+  0%{
+    background: #312e81;
+  }
+
+  50%{
+    background: #1a1941;
+  }
+
+  100%{
+    background-color: #312e81;
+  }
+}
